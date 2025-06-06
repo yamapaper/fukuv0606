@@ -34,7 +34,7 @@ namespace fukuv0606
             {
                 if (Math.Abs(vy) <= 30)
                 {
-                    vy = -vy - 2;
+                    vy = -vy + 2;
                 }
                 label1.Top += vy;
             }
@@ -42,7 +42,7 @@ namespace fukuv0606
             {
                 if (Math.Abs(vy) <= 30)
                 {
-                    vy = -vy + 2;
+                    vy = -vy - 2;
                 }
                 label1.Top += vy;
             }
